@@ -1,0 +1,46 @@
+2020-10-13T23:13:05.129052+00:00 app[api]: Release v1 created by user sara_syed@brown.edu
+2020-10-13T23:13:05.129052+00:00 app[api]: Initial release by user sara_syed@brown.edu
+2020-10-13T23:13:05.347725+00:00 app[api]: Enable Logplex by user sara_syed@brown.edu
+2020-10-13T23:13:05.347725+00:00 app[api]: Release v2 created by user sara_syed@brown.edu
+2020-10-13T23:13:30.000000+00:00 app[api]: Build started by user sara_syed@brown.edu
+2020-10-13T23:14:04.107419+00:00 app[api]: Deploy f9f768e8 by user sara_syed@brown.edu
+2020-10-13T23:14:04.107419+00:00 app[api]: Release v3 created by user sara_syed@brown.edu
+2020-10-13T23:14:04.130596+00:00 app[api]: Scaled to web@1:Free by user sara_syed@brown.edu
+2020-10-13T23:14:08.367549+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-13T23:14:10.768370+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-13T23:14:10.776347+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-13T23:14:10.776403+00:00 app[web.1]: * Environment: production
+2020-10-13T23:14:10.776474+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-13T23:14:10.776581+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T23:14:10.776588+00:00 app[web.1]: * Debug mode: on
+2020-10-13T23:14:10.787275+00:00 app[web.1]: * Running on http://0.0.0.0:39316/ (Press CTRL+C to quit)
+2020-10-13T23:14:10.788586+00:00 app[web.1]: * Restarting with stat
+2020-10-13T23:14:11.074649+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-13T23:14:11.086792+00:00 app[web.1]: * Debugger is active!
+2020-10-13T23:14:11.088025+00:00 app[web.1]: * Debugger PIN: 208-928-339
+2020-10-13T23:14:11.437395+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T23:14:13.000000+00:00 app[api]: Build succeeded
+2020-10-13T23:14:52.944507+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:14:52.949346+00:00 heroku[router]: at=info method=GET path="/" host=thawing-chamber-15817.herokuapp.com request_id=36989bfe-6143-4003-8f4f-0a94a8124a8c fwd="138.16.115.46" dyno=web.1 connect=1ms service=17ms status=200 bytes=8949 protocol=https
+2020-10-13T23:14:53.060741+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:53] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.065548+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=thawing-chamber-15817.herokuapp.com request_id=a036b73c-edca-49b7-8852-40f9cb7a76a9 fwd="138.16.115.46" dyno=web.1 connect=1ms service=4ms status=200 bytes=1117 protocol=https
+2020-10-13T23:14:53.091498+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:53] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.092334+00:00 app[web.1]: 10.11.225.205 - - [13/Oct/2020 23:14:53] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.112603+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=thawing-chamber-15817.herokuapp.com request_id=940fc96d-741b-4ce4-81c9-c1cf1b0d4524 fwd="138.16.115.46" dyno=web.1 connect=1ms service=25ms status=200 bytes=243856 protocol=https
+2020-10-13T23:14:53.119071+00:00 app[web.1]: 10.35.184.226 - - [13/Oct/2020 23:14:53] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.122469+00:00 app[web.1]: 10.37.207.144 - - [13/Oct/2020 23:14:53] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.129840+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=thawing-chamber-15817.herokuapp.com request_id=c7ada332-391f-45ec-bf3a-3453d458468e fwd="138.16.115.46" dyno=web.1 connect=3ms service=43ms status=200 bytes=618300 protocol=https
+2020-10-13T23:14:53.132616+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=thawing-chamber-15817.herokuapp.com request_id=3a7efdc8-941b-4660-919d-2c917e3f4bdf fwd="138.16.115.46" dyno=web.1 connect=1ms service=15ms status=200 bytes=132444 protocol=https
+2020-10-13T23:14:53.134690+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=thawing-chamber-15817.herokuapp.com request_id=4106c07b-f5cf-4490-af64-6ca7d9c9158d fwd="138.16.115.46" dyno=web.1 connect=2ms service=17ms status=200 bytes=160216 protocol=https
+2020-10-13T23:14:53.418684+00:00 app[web.1]: AB_TESTING: B 1602630893377 0 0 uyyvfo
+2020-10-13T23:14:53.419507+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:53] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:14:53.424381+00:00 heroku[router]: at=info method=POST path="/data" host=thawing-chamber-15817.herokuapp.com request_id=2a84328c-9968-4d48-b377-4a8e4feb7657 fwd="138.16.115.46" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-13T23:14:53.597060+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-13T23:14:53.601798+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=thawing-chamber-15817.herokuapp.com request_id=00e59ed9-10de-4092-a16d-1a690c32f030 fwd="138.16.115.46" dyno=web.1 connect=1ms service=4ms status=404 bytes=394 protocol=https
+2020-10-13T23:14:57.430792+00:00 app[web.1]: AB_TESTING: B 1602630893377 1602630897414 mp4 uyyvfo
+2020-10-13T23:14:57.431582+00:00 app[web.1]: 10.43.250.98 - - [13/Oct/2020 23:14:57] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:14:57.444584+00:00 heroku[router]: at=info method=POST path="/data" host=thawing-chamber-15817.herokuapp.com request_id=b2d5ee57-e21b-4f71-8d52-2a2fb11efafb fwd="138.16.115.46" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-13T23:50:49.680154+00:00 heroku[web.1]: Idling
+2020-10-13T23:50:49.683232+00:00 heroku[web.1]: State changed from up to down
+2020-10-13T23:50:51.153035+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-13T23:50:51.348666+00:00 heroku[web.1]: Process exited with status 0
